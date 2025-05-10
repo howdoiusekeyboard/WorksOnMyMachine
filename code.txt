@@ -13,53 +13,68 @@ Today, we present **Pill-Pal**, your AI Health Assistant, designed to tackle thi
 
 The path to good health is often complicated by:
 *   ❤️ **Health Risks:** Missed medications directly lead to poorer outcomes.
-*   💊 **Complex Regimens:** Juggling multiple medications with different schedules is tough.
-*   🧠 **Memory Issues:** Simple forgetfulness can have serious consequences, particularly for seniors who value their independence.
+*   💊 **Complex Regimens:** Juggling multiple medications is tough.
+*   🧠 **Memory Issues:** Simple forgetfulness has serious consequences, particularly for seniors.
 
-This isn't just about taking pills; it's about **quality of life**.
+This significantly impacts their independence and quality of life.
+
+---
+**(NEW SLIDE CONTENT - Market Opportunity section)**
+
+And the scale of this challenge represents a **significant market opportunity**. We're looking at:
+*   📈 A **₹3.2 Lakh Crore** Indian Healthcare Market, growing at 22% annually.
+*   👥 **240 million** chronic disease patients in India.
+*   📱 With **85% smartphone penetration** in the target demographic, a digital solution is highly accessible.
+*   💰 And a **₹42,000 Crore** Digital Health Segment poised for growth.
 
 ---
 **(Slide 3: Who Benefits from Pill-Pal?)**
 
 Pill-Pal offers a circle of support:
-*   👵 **For Elderly Individuals:** We provide simplified medication management, fostering independence.
-*   👨‍👩‍👧 **For Caregivers & Family:** We aim to reduce worry with a reliable system.
-*   ⚕️ **For Healthcare Providers:** Our goal is to contribute to better patient outcomes through improved adherence.
+*   👵 **For Elderly Individuals:** Simplified medication management, fostering independence.
+*   👨‍👩‍👧 **For Caregivers & Family:** Reducing worry through a reliable system.
+*   ⚕️ **For Healthcare Providers:** Aiming for better patient outcomes.
 
 ---
 **(Slide 4 & 6: Pill-Pal's Core Features & Demonstration)**
 
-So, how does our Pill-Pal hackathon project work? We've built a **Telegram-powered assistant** focusing on:
+Our Pill-Pal hackathon project, built on Telegram, delivers:
 
-1.  🗣️ **Easy, Conversational Setup:** Users can add medications and schedules through simple text commands, guided by the bot. *(Point to demo slide visuals)*
-2.  🔔 **Smart, Timely Reminders:** Pill-Pal sends clear, actionable reminders directly on Telegram when it's time for medication.
-3.  👍 **Simple Acknowledgement:** A quick tap confirms a dose is taken.
-4.  📞 **Critical Call Escalation:** This is key! If a reminder isn't acknowledged within a set time, Pill-Pal can initiate a direct **phone call**, providing an essential safety net.
-5.  🖼️ **(Optional - If you implemented basic OCR):** We've also explored AI-assisted input by allowing users to upload a prescription image, which Pill-Pal attempts to analyze to help set up reminders – always with user confirmation.
+1.  🗣️ **Easy, Conversational Setup:** Guided text commands for adding medications.
+2.  🔔 **Smart, Timely Reminders:** Clear, actionable alerts.
+3.  👍 **Simple Acknowledgement:** One-tap dose confirmation.
+4.  📞 **Critical Call Escalation:** A direct phone call if a reminder is missed – our key safety net.
+5.  🖼️ **(Optional - If implemented):** AI-assisted prescription image analysis for setup, always with user confirmation.
 
-*(Briefly walk through the demo screen if possible, highlighting these points)*
+*(Briefly gesture to demo slide visuals)*
 
 ---
-**(Slide 5: Technology Behind Pill-Pal - Our Hackathon Stack)**
+**(Slide 5 & NEW SLIDE CONTENT - Technology & Competitive Advantage)**
 
 Our Pill-Pal assistant leverages:
-*   🤖 **Telegram Bot API:** For accessible, familiar user interaction.
-*   🐍 **Python & APScheduler:** For robust backend logic and reliable scheduling.
-*   🧠 **AI (Conceptual/Basic):** While the vision includes advanced AI, our current build uses pattern matching for commands and (if applicable) basic OCR with Tesseract for the image analysis feature.
-*   🔒 **Privacy Aware:** We've designed with data sensitivity in mind. User-provided phone numbers are *only* for call escalation.
+*   🤖 **Telegram Bot API** for accessibility.
+*   🐍 **Python & APScheduler** for robust backend logic.
+
+And we're building towards key **competitive advantages**:
+*   💡 **Advanced Learning:** Our vision is a system that adapts to individual behaviors.
+*   🔗 **Seamless Integration:** Designed to potentially work with existing healthcare systems.
+*   🌍 **Customisable Design:** With the goal of tailoring to local healthcare needs.
+*   🔒 **Enterprise-Grade Security:** Foundational to our architecture, aiming for HIPAA and DISHA compliance.
+
+Our current hackathon build focuses on the core reminder and escalation, demonstrating the foundational tech for this vision.
 
 ---
 **(Slide 7: Impact & Future Development)**
 
-While these compelling figures *(point to 45%, 87%, 62%)* represent the *potential impact* we're striving for, our hackathon project lays the crucial groundwork.
+While these compelling figures *(point to 45%, 87%, 62%)* represent the *potential impact*, our hackathon project lays the crucial groundwork.
 
 **Our Telegram Pill-Pal already offers:**
 *   ✅ Improved accessibility for medication management.
 *   🛡️ An enhanced safety net with its unique call escalation.
 
-**Next steps?** We envision deeper AI integration for truly personalized interactions, and as the slide suggests, seamless integration with pharmacy systems.
+**Next steps?** Deeper AI integration and connections with pharmacy systems.
 
 ---
-Pill-Pal, in its current form, is more than just code; it’s a step towards empowering the elderly and supporting their loved ones. We believe in revolutionizing elderly healthcare through accessible AI technology.
+Pill-Pal is a vital step towards empowering the elderly. We're revolutionizing healthcare through accessible AI.
 
 **Thank you.** We're ready for your questions.

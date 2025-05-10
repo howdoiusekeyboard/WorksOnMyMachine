@@ -17,7 +17,7 @@ from bot_handlers import (
     my_medications_command, scan_rx_command, text_fallback,
     MED_NAME, DOSAGE, SPECIFIC_TIMES, CONFIRMATION,
     set_phone_start, set_phone_received, PHONE_NUMBER,
-    handle_reminder_ack
+    handle_reminder_ack, health_check
 )
 from scheduler import schedule_jobs
 
@@ -73,6 +73,7 @@ def main() -> None:
     application.add_handler(CommandHandler("mylist", my_medications_command))
     application.add_handler(CommandHandler("scanrx", scan_rx_command))
     application.add_handler(CallbackQueryHandler(handle_reminder_ack, pattern=r"^(ack|snooze):"))
+    application.add_handler(CommandHandler("health", health_check))
     logger.info("All handlers added to the application.")
     
     logger.info("Starting bot polling...")
