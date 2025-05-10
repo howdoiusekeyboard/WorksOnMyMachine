@@ -1,0 +1,65 @@
+---
+# Pill-Pal: Reclaiming Health, One Reminder at a Time
+---
+
+**(Slide 1: Title - Pill-Pal: Your AI Health Assistant)**
+
+Good morning/afternoon, judges. Did you know that according to the CDC, a staggering **50% of patients** with chronic diseases don't take their medications as prescribed? This isn't just a statistic; it's a daily reality impacting millions, especially our elderly.
+
+Today, we present **Pill-Pal**, your AI Health Assistant, designed to tackle this challenge head-on.
+
+---
+**(Slide 2: The Medication Adherence Challenge)**
+
+The path to good health is often complicated by:
+*   ❤️ **Health Risks:** Missed medications directly lead to poorer outcomes.
+*   💊 **Complex Regimens:** Juggling multiple medications with different schedules is tough.
+*   🧠 **Memory Issues:** Simple forgetfulness can have serious consequences, particularly for seniors who value their independence.
+
+This isn't just about taking pills; it's about **quality of life**.
+
+---
+**(Slide 3: Who Benefits from Pill-Pal?)**
+
+Pill-Pal offers a circle of support:
+*   👵 **For Elderly Individuals:** We provide simplified medication management, fostering independence.
+*   👨‍👩‍👧 **For Caregivers & Family:** We aim to reduce worry with a reliable system.
+*   ⚕️ **For Healthcare Providers:** Our goal is to contribute to better patient outcomes through improved adherence.
+
+---
+**(Slide 4 & 6: Pill-Pal's Core Features & Demonstration)**
+
+So, how does our Pill-Pal hackathon project work? We've built a **Telegram-powered assistant** focusing on:
+
+1.  🗣️ **Easy, Conversational Setup:** Users can add medications and schedules through simple text commands, guided by the bot. *(Point to demo slide visuals)*
+2.  🔔 **Smart, Timely Reminders:** Pill-Pal sends clear, actionable reminders directly on Telegram when it's time for medication.
+3.  👍 **Simple Acknowledgement:** A quick tap confirms a dose is taken.
+4.  📞 **Critical Call Escalation:** This is key! If a reminder isn't acknowledged within a set time, Pill-Pal can initiate a direct **phone call**, providing an essential safety net.
+5.  🖼️ **(Optional - If you implemented basic OCR):** We've also explored AI-assisted input by allowing users to upload a prescription image, which Pill-Pal attempts to analyze to help set up reminders – always with user confirmation.
+
+*(Briefly walk through the demo screen if possible, highlighting these points)*
+
+---
+**(Slide 5: Technology Behind Pill-Pal - Our Hackathon Stack)**
+
+Our Pill-Pal assistant leverages:
+*   🤖 **Telegram Bot API:** For accessible, familiar user interaction.
+*   🐍 **Python & APScheduler:** For robust backend logic and reliable scheduling.
+*   🧠 **AI (Conceptual/Basic):** While the vision includes advanced AI, our current build uses pattern matching for commands and (if applicable) basic OCR with Tesseract for the image analysis feature.
+*   🔒 **Privacy Aware:** We've designed with data sensitivity in mind. User-provided phone numbers are *only* for call escalation.
+
+---
+**(Slide 7: Impact & Future Development)**
+
+While these compelling figures *(point to 45%, 87%, 62%)* represent the *potential impact* we're striving for, our hackathon project lays the crucial groundwork.
+
+**Our Telegram Pill-Pal already offers:**
+*   ✅ Improved accessibility for medication management.
+*   🛡️ An enhanced safety net with its unique call escalation.
+
+**Next steps?** We envision deeper AI integration for truly personalized interactions, and as the slide suggests, seamless integration with pharmacy systems.
+
+---
+Pill-Pal, in its current form, is more than just code; it’s a step towards empowering the elderly and supporting their loved ones. We believe in revolutionizing elderly healthcare through accessible AI technology.
+
+**Thank you.** We're ready for your questions.
