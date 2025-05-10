@@ -1,0 +1,6 @@
+python-telegram-bot
+python-dotenv
+APScheduler
+# pytesseract  # Uncomment if doing OCR
+# Pillow       # Uncomment for image processing with OCR
+# twilio       # Uncomment if doing Twilio calls
