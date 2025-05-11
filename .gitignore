@@ -26,6 +26,16 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+# Databases
+.db\
+*.sqlite3
+*.sqlite
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+*.db-journal
+
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
