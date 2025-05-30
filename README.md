@@ -1,4 +1,4 @@
-# MediMinder Telegram Bot
+# PilPall Telegram Bot
 
 A medication reminder bot that sends notifications via Telegram.
 
