@@ -1,4 +1,4 @@
-# PilPall Telegram Bot
+# Pill-Pal Telegram Bot
 
 A medication reminder bot that sends notifications via Telegram.
 
